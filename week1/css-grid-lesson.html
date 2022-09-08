@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/day2/css-grid.css" />
+    <title>CSS Grid Lesson (09/07/22)</title>
+  </head>
+  <body>
+    <hr />
+    <div class="container" id="main__section">
+      <div class="box__left box"></div>
+      <div class="box__main box"></div>
+      <div class="box__left box"></div>
+      <div class="box__main box"></div>
+      <div class="box__left box"></div>
+      <div class="box__main box"></div>
+      <div class="box__footer box"></div>
+    </div>
+    <hr />
+    <div class="container" id="grid__section">
+      <div class="box__red box__primary box"></div>
+      <div
+        class="box__lilac box"
+        style="grid-row: span 2/4; height: 42.7vh"
+      ></div>
+      <div class="box__skyblue box"></div>
+      <div class="box__grey box"></div>
+      <div class="box__skyblue box" style="grid-column: span 2"></div>
+      <div class="box__red box" style="grid-column: span 2"></div>
+      <div class="box__lilac box"></div>
+      <div
+        class="box__skyblue big__column box"
+        style="grid-column: span 3"
+      ></div>
+      <div id="bottom__spacer"></div>
+    </div>
+  </body>
+</html>

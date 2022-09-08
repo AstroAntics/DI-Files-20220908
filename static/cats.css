@@ -1,0 +1,23 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.highlight {
+    background: yellow;
+    font-weight: 900;
+}
+
+/* blockquote {
+    border-left: 2px grey solid;
+    margin-left: 10px;
+    background: lightgrey;
+} */
+
+.roman-numerals {
+    list-style-type: lower-roman;
+}
+
+.body-image {
+    max-width: 300px;
+    max-height: 300px;
+}

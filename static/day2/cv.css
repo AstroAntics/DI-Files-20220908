@@ -1,0 +1,90 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#cv__page {
+    width: 98vw;
+}
+
+#page__announcement {
+    background: red;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 100.13vw;
+    color: white;
+    font-weight: 900;
+    font-size: 3vh;
+    align-items: center;
+    margin-bottom: 5vh;
+    margin-top: -2vh;
+    margin-left: -2vh;
+}
+
+.popout {
+    color: orange;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.intro__blurb {
+    margin-left: 5vh;
+}
+
+#cv__intro {
+    display: flex;
+    height: 50vh;
+    flex-direction: row;
+    place-content: space-between;
+    justify-content: space-evenly;
+}
+
+#cv__grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 5vh;
+    width: 96vw;
+}
+
+.intro__pic img {
+    max-width: 15vw;
+    max-height: 15vw;
+    margin-right: 6vh;
+    margin-top: 1vh;
+    border-radius: 9999vw;
+}
+
+.intro__desc {
+    font-size: 5vh;
+}
+
+.intro__supporter {
+    margin-top: -2vh;
+}
+
+.no__margin {
+    margin: 0vh;
+}
+
+.contact__block {
+    grid-row: span 2;
+}
+
+.profile__block {
+    grid-row: span 1;
+}
+
+.education__block {
+    grid-column: span 4;
+}
+
+.experience__block {
+    grid-column: span 5;
+}
+
+.description__block {
+    display: flex;
+    font-size: 15px;
+    font-weight: 300;
+    flex-direction: column;
+}

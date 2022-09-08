@@ -1,0 +1,2 @@
+# About
+This repository holds all of my work from Developer's Institute. This work includes everything done before, during, and after September 8, 2022, and will be updated with the progression of the bootcamp.

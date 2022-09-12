@@ -1,0 +1,47 @@
+#topNav {
+    width: 102.04%;
+    margin-left: -1em;
+    height: 5rem;
+    display: flex;
+}
+
+.navbar-brand {
+    margin-left: 1em;
+    font-weight: 900;
+    letter-spacing: 0.06rem;
+}
+
+.intro {
+    width: 102.04%;
+    margin-left: -1em;
+    background-image: url('../../static/mvimg.jpeg');
+    height: 40rem;
+    background-repeat: no-repeat;
+    /* opacity: 0.75; */
+    background-position: center;
+}
+
+.nav-link {
+    font-weight: 900;
+}
+
+.intro h1 {
+    margin-left: 1em;
+    font-size: 7.2rem;
+    align-self: center;
+}
+
+#plugBanner {
+    font-size: 22px;
+    background: crimson;
+    color: white;
+    font-weight: 900;
+    margin-left: -0.9em;
+    width: 102.32%;
+    justify-content: center;
+    height: 3.5rem;
+}
+
+#plugBanner p {
+    margin-top: 0.5rem;
+}

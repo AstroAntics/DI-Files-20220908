@@ -1,0 +1,46 @@
+.bg-primary, .bg-purple {
+    background-color: purple !important;
+}
+
+#topNav {
+    height: 4.5rem;
+}
+
+.bi-lock::before, .bi-lock-fill::before {
+    width: 3rem;
+}
+
+.thread__details i {
+    margin: 0.25rem;
+}
+
+.thread__details {
+    color: gray;
+}
+
+.thread__banners {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1.65rem;
+    border: 1px solid red;
+    border-top: 5px solid red;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#threadContent {
+    border-top: 1px solid grey;
+}
+
+#threadContent .row {
+    margin-top: 1rem;
+}
+
+.thread__member__profile {
+    border-right: 1px solid grey;
+}
+
+.thread__member__image img {
+    max-width: 50% !important;
+}

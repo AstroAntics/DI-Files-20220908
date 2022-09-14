@@ -28,3 +28,7 @@ const account = {
 
 const database = [account];
 const newsfeed = [account, database];
+
+function celsiusToFahrenheit(cel) {
+  return (cel / 5) * 9 + 32;
+}

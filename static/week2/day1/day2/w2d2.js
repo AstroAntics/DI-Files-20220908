@@ -128,3 +128,19 @@ for (let i = 0; i < thearray.length; i++) {
     }
   }
 }
+
+// Last thing
+
+let family = {
+  mom: "Mom",
+  dad: "Dad",
+  me: "Marko",
+};
+
+for (const fam in family) {
+  console.log(fam);
+}
+
+let names = ["Jack", "Philip", "Sarah", "Amanda", "Bernard", "Kyle"];
+const _names = String(names.sort());
+console.log(_names.charAt(0));

@@ -1,0 +1,52 @@
+#container {
+  display: flex;
+}
+
+#leftPanel {
+  width: 20rem;
+  display: grid;
+  /* justify-content: center; */
+  border-right: 1px solid green;
+}
+
+#rightPanel {
+  display: grid;
+  /* border-left: 1px solid red; */
+  grid-auto-flow: column;
+}
+
+.row .square {
+  grid-auto-flow: column;
+  display: inline-grid;
+}
+
+.flex__column {
+  display: flex;
+}
+
+.square {
+  border: 1px solid grey;
+  margin-left: 1rem;
+  height: 5rem;
+}
+
+/***** COLORS *****/
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.white {
+    background-color: aqua;
+}
+
+.darkblue {
+    background-color: darkblue;
+}
